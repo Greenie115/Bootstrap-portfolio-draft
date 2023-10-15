@@ -8,25 +8,23 @@
     <!-- Bootstrap Styles -->
     <!-- CSS Styles  -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-none">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Daniel Green</a>
+                <a class="navbar-brand" href="#profile-img">Daniel Green</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse">
                 <div class="navbar-nav">
-                    <i class="fa fa-television" aria-hidden="true"></i>
                     <a class="nav-link" href="#about-me-section">About Me</a>
                     <a class="nav-link" href="#projects-seciton">Projects</a>
-                    <a class="nav-link" href="#skils-section">Skills</a>
+                    <a class="nav-link" href="#skills-section-top">Skills</a>
                     <a class="nav-link" href="#contact-form">Contact Me</a>
                 </div>
                 <div class="form-check form-switch ms-auto">
@@ -43,10 +41,10 @@
     <main class="container">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-            <img id="main-profile" src="./assets/images/IMG-20220404-WA0001-cropped.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img id="profile-img" src="./assets/images/IMG-20220404-WA0001-cropped.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hey, I'm Dan 👋</h1>
+            <h1 class="display-5 lh-1 mb-3">Hey, I'm Dan 👋</h1>
             <p class="lead">Front-End Developer with a passion for travel, gaming and food.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             </div>
@@ -58,7 +56,7 @@
     <!-- About Me -->
     <section>
       <div id="about-me-section" class="p-5 text-center bg-body-tertiary rounded-3">
-        <h1 class="text-body-emphasis">About Me</h1>
+        <h2>About Me</h2>
         <p class="lead">
         Aspiring Front End Developer that's making a career shift into tech. Learning HTML, CSS and JavaScript from scratch with experience in Python too. I was an Au Pair in China for 3 months and am currently doing a charity burpee challenge for Bone Cancer Support
         </p>
@@ -67,7 +65,7 @@
     <!-- End of About Me -->
 
     <!-- Projects -->
-    <section id="projects-seciton" class="container">
+    <section id="projects-seciton" class="container justify-content-center">
       <h2 class="subheading">Projects</h2>
       <div class="row projects-cards">
 
@@ -114,7 +112,7 @@
     <!-- End of projects -->
 
     <!-- Skills -->
-    <section class="skills-section">
+    <section id="skills-section-top" class="skills-section">
       <!-- Technical skills -->
       <h2 class="pb-2 border-bottom">Skills</h2>
       <div class="container-fluid px-4 py-5">
@@ -123,21 +121,21 @@
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
               <div>
-                <h4 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML & CSS</h4>
+                <h4 class="mb-0 fs-4">HTML & CSS</h4>
                 <p>Implementing semantic HTML, applying CSS styles and responsive Grid displays</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
               <div>
-                <h4 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
+                <h4 class="mb-0 fs-4">Bootstrap</h4>
                 <p>Building mobile-first reactive websites with Flexbox, Grid and Bootstrap components</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
               <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
               <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+                <h4 class="mb-0 fs-4">JavaScript</h4>
                 <p>Linking .ejs with HTML files, functions, arrays and basic server request handling</p>
               </div>
             </div>
@@ -153,21 +151,21 @@
           <div class="col d-flex align-items-start">
             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Events Manager</h3>
+              <h4 class="mb-0 fs-4">Events Manager</h4>
               <p>Managed small to medium sized experimental marketing events from set up to pack down</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Client Success Management</h3>
+              <h4 class="mb-0 fs-4">Client Success Management</h4>
               <p>Ran a property portfolio of 50 properties handling churn rate, host retention and portfolio performance</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">G-suite</h3>
+              <h4 class="mb-0 fs-4">G-suite</h4>
               <p>Full Google suite proficiency from access control to personal filing systems</p>
             </div>
           </div>
@@ -183,21 +181,21 @@
               <div class="col d-flex align-items-start">
                 <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
                 <div>
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Stakeholder Comms</h3>
+                  <h4 class="mb-0 fs-4">Stakeholder Comms</h4>
                   <p>Adaptive communication for different stakeholders throughout a business</p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
                 <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
                 <div>
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Presentation</h3>
+                  <h4 class="mb-0 fs-4">Presentation</h4>
                   <p>Confident presenter in front of live and virtual meetings</p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
                 <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
                 <div>
-                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Time Management</h3>
+                  <h4 class="mb-0 fs-4">Time Management</h4>
                   <p>If you're not 5 minutes early, you're 10 minutes late</p>
                 </div>
               </div>
