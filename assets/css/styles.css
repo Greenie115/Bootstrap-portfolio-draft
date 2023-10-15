@@ -1,6 +1,7 @@
 :root{
     --background-col: #454545;
     --header-col: #FF6000;
+    --text-hover: #FFA559;
     --text-col: #FFE6C7;
 }
 
@@ -22,8 +23,22 @@ h3{
 }
 
 h4,
-a{
+.nav-link,
+.navbar-brand,
+.button{
     color: var(--header-col);
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6%;
+    background-color: var(--background-col);
+}
+
+.nav-link:hover,
+.navbar-brand:hover{
+    color: var(--text-hover);
 }
 
 p{
