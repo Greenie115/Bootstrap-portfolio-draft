@@ -29,7 +29,7 @@
                 </div>
                 <div class="form-check form-switch ms-auto">
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Light/Dark</label>
+                    <label id="light-dark-text" class="form-check-label" for="flexSwitchCheckDefault">Light/Dark</label>
                   </div>
                 </div>
             </div>
@@ -38,10 +38,10 @@
     <!-- End of Navbar -->
 
     <!-- Hero -->
-    <main class="container">
+    <main class="container-fluid">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-            <img id="profile-img" src="./assets/images/IMG-20220404-WA0001-cropped.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img id="profile-img" src="./assets/images/IMG-20220404-WA0001-cropped.jpg" class="img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
             <h1 class="display-5 lh-1 mb-3">Hey, I'm Dan 👋</h1>
@@ -65,28 +65,28 @@
     <!-- End of About Me -->
 
     <!-- Projects -->
-    <section id="projects-seciton" class="container justify-content-center">
+    <section id="projects-seciton" class="container">
       <h2 class="subheading">Projects</h2>
       <div class="row projects-cards">
 
-        <!-- Card 1 -->
-        <article class="card-container col-lg-4 col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/images/screencapture-greenie115-github-io-portfolio-draft-1-grid-flexbox-2023-10-15-14_51_35.png" class="card-img-top" alt="first portfolio website screenshot">
-            <div class="card-body col-sm-12 col mx-auto justify-content-between">
-              <h5 class="card-title">First Responsive Portfolio</h5>
-              <p class="card-text">Building my first draft portfolio with CSS grid for a mobile first design</p>
-              <a target="_blank" href="https://greenie115.github.io/portfolio-draft-1-grid-flexbox/" class="btn">Check It Out</a>
+          <!-- Card 1 -->
+          <article class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100 w-100">
+              <img src="./assets/images/screencapture-greenie115-github-io-portfolio-draft-1-grid-flexbox-2023-10-15-14_51_35.png" class="card-img-top" alt="first portfolio website screenshot">
+              <div class="card-body">
+                <h5 class="card-title">First Responsive Portfolio</h5>
+                <p class="card-text">Building my first draft portfolio with CSS grid for a mobile first design</p>
+                <a target="_blank" href="https://greenie115.github.io/portfolio-draft-1-grid-flexbox/" class="button">Check It Out</a>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
           <!-- End card 1 -->
 
           <!-- Card 2 -->
-          <article class="card-container col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style="width: 18rem;">
+          <article class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100 w-100">
               <img src="./assets/images/screencapture-greenie115-github-io-marketing-agency-refactoring-2023-10-15-14_53_00.png" class="card-img-top" alt="Horiseon website screenshot">
-              <div class="card-body col-sm-12 col mx-auto justify-content-between">
+              <div class="card-body">
                 <h5 class="card-title">Website Refactoring</h5>
                 <p class="card-text">Refactoring Horiseons agency website for it to meet accessability standards</p>
                 <a target="_blank" href="https://greenie115.github.io/marketing-agency-refactoring/" class="button">Check It Out</a>
@@ -96,13 +96,14 @@
           <!-- End card 2 -->
 
           <!-- Card 3 -->
-          <article class="card-container col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style="width: 18rem;">
+          <article class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100 w-100">
               <img src="./assets/images/istockphoto-1302436578-640x640.jpg" class="card-img-top" alt="black and white loading logo">
-              <div class="card-body col-sm-12 col mx-auto justify-content-between">
+              <div class="card-body">
                 <h5 class="card-title">Coming Soon</h5>
-                <p class="card-text">More projects coming soon...</p>
-                <a href="#" class="btn btn-primary">Check It Out</a>
+                <p class="card-text">More projects coming soon...
+                </p>
+                <a href="#" class="button ">Check It Out</a>
               </div>
             </div>
           </article>
@@ -216,7 +217,7 @@
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <input class="btn btn-primary" type="submit" value="Submit">
+      <input class="button" type="submit" value="Submit">
     </form>
     <!-- End contact me -->
 
