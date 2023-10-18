@@ -25,7 +25,9 @@ h3{
     margin: 2%;
 }
 
-p{
+p,
+.contact-form,
+footer{
     color: var(--text-col);
 }
 
@@ -59,7 +61,7 @@ h4,
 }
 
 .button:hover{
-    box-shadow: 0 0 20px rgba(166, 83, 0, 0.563);
+    box-shadow: 0 0 15px rgba(166, 83, 0, 0.563);
 }
 
 /* projects styling */
@@ -89,3 +91,4 @@ h4,
     justify-content: center;
 }
 
+/* form styling */
