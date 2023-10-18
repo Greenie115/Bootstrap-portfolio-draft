@@ -26,8 +26,8 @@ h3{
 }
 
 p,
-.contact-form,
-footer{
+.contact-form
+{
     color: var(--text-col);
 }
 
@@ -92,3 +92,7 @@ h4,
 }
 
 /* form styling */
+.footer-icon:hover{
+    box-shadow: 0 0 15px rgba(166, 83, 0, 0.563);
+    background-color: var(--header-col);
+}
