@@ -51,10 +51,6 @@ h4,
     border-color: var(--text-col);
 }
 
-#about-me-main{
-    
-}
-
 .button{
     text-decoration: none;
     padding: 10px;
@@ -62,13 +58,13 @@ h4,
     background-color: var(--header-col);
 }
 
+.button:hover{
+    box-shadow: 0 0 20px rgba(166, 83, 0, 0.563);
+}
+
 /* projects styling */
 .card{
     padding: 1%;
-}
-
-.card:hover{
-    box-shadow: 0 0 20px rgba(166, 83, 0, 0.563);
 }
 
 .card img{
@@ -93,4 +89,3 @@ h4,
     justify-content: center;
 }
 
-/* skills styling */
